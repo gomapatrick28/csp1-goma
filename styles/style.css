@@ -1,0 +1,33 @@
+#nav-name{
+	font-family: Roboto Slab;
+	color: white;
+	font-weight: bold;
+}
+
+body {
+	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Water Brush', cursive;
+}
+
+#myprojects {
+	text-align: center;
+	color: white;
+	font-family: Roboto Slab;
+	font-weight: bold;
+}
+#tools {
+	text-align: center;
+	color: white;
+	font-family: Roboto Slab;
+	font-weight: bold;
+}
+
+p {
+	font-family: Roboto Slab;
+}
+i {
+	font-size: 3rem;
+}
+
