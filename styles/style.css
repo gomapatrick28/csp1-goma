@@ -19,16 +19,31 @@ body {
 	font-family: 'Water Brush', cursive;
 }
 
-#myprojects {
+.card-body {
 	text-align: center;
-	color: white;
+	color: black;
 	font-family: Roboto Slab;
 	font-weight: bold;
 }
+
+.card-title {
+	text-align: center;
+	color: black;
+	font-family: Roboto Slab;
+	font-weight: bold;
+}
+
+#myprojects {
+	text-align: center;
+	color: black;
+	font-family: Roboto Slab;
+	font-weight: bold;
+}
+
 #tools {
 	text-align: center;
 	color: white;
-	font-family: Roboto Slab;
+	font-family: Open Sans;
 	font-weight: bold;
 }
 
@@ -45,4 +60,8 @@ form {
 h5 {
 	font-family: Roboto Slab;
 	font-style: italic;
+}
+.card-img-top {
+	width: 100px;
+	height: 320px;
 }
