@@ -30,4 +30,7 @@ p {
 i {
 	font-size: 3rem;
 }
-
+form {
+	width: 500px;
+	margin: auto;
+}
