@@ -3,6 +3,14 @@
 	color: white;
 	font-weight: bold;
 }
+nav > a {
+	font-family: Roboto Slab;
+	font-weight: bold;
+}
+ul > li > a {
+	font-family: Roboto Slab;
+	font-weight: bold;
+}
 
 body {
 	font-family: 'Fjalla One', sans-serif;
