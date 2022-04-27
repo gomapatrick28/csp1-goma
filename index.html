@@ -18,7 +18,7 @@
 </head>
 <body>
 	<div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
 		  <a class="navbar-brand text-white" href="#">Patrick</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -43,12 +43,12 @@
 	</div>
 	<div class="container-fluid text text-center bg-secondary">
 		<div class="rows">
-			<div class="col-lg-6 d-flex mx-auto align-items-center py-3">
-				<img src="images/patrick.jpg" class="rounded-circle pt-3 img-fluid d-sm-block" width="250">
+			<div class="col-lg-6 d-flex mx-auto align-items-center align-top py-5">
+				<img src="images/patrick.jpg" class="rounded-circle pt-3 mr-5 img-fluid d-sm-block" width="300">
 				<div id="nav-name">		
-					<h1 class="pt-5" id="nav-name">Jhun Patrick A. Goma</h1>
-					<h2 id="nav-name">Data Analyst / Web Developer</h2>
-					<p class="pb-5">Born May 23, 1989 - A graduate of Bachelor of Science in Electronics in Communication Engineering with 12 years work experience. Currently working as Data Analyst at Bolton International Inc. under Sevenrooms account. 
+					<h1 class="pt-5 text-md-left" id="nav-name">Jhun Patrick Goma</h1>
+					<h3 class="text-md-left" id="nav-name">Web Developer/ Data Analyst</h3>
+					<p class="pb-5 text-justify">Born May 23, 1989 - A graduate of Bachelor of Science in Electronics in Communication Engineering with 12 years work experience. Currently working as Data Analyst at Bolton International Inc. under Sevenrooms account. 
 					Always believe in the sayings, Never stops learning because life never stop teaching. 
 					</p>
 				</div>		
@@ -57,11 +57,11 @@
 	</div>
 
 	<div class="text-light min-vh-100 p-5 bg-secondary">
-		<h2 class="mb-1" id="myprojects">My Projects</h2>
+		<h2 class="mb-1 pt-5" id="myprojects">My Projects</h2>
 		<div class="d-lg-flex justify-content-center p-md-5">
 			<div class="card bg-secondary col-xl-4 mb-5 mb-xl-0 mrauto">
 				<div class="card-body">
-					<img src="images/project2.jpg" class="pt-4 pb-4 img-fluid">
+					<img src="images/project2.jpg" class="pt-4 pb-1 img-fluid">
 					<p>Capstone 1 - HTML, CSS, and Bootstrap creation. On my first project, Its was challenging for me because of the conflict of work and online class. Its really hard but it was really challenging. Looking forward for more knowledge and opportunity.</p>
 				</div>
 			</div>
@@ -73,15 +73,15 @@
 		<div class="d-lg-flex justify-content-center p-md-5">
 			<div class="card bg-secondary col-xl-4 mb-5 mb-xl-0 mrauto">
 				<div class="card-body">
-					<img src="images/html1.jpg" class="pt-4 pb-4 img-fluid">
+					<img src="images/html1.jpg" class="pt-4 pb-1 img-fluid">
 					<p>Updated April, 26 2022</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<h3 class="text-center" id="contacts">Contact</h3>
+	<h2 class="text-center" id="contacts">Contact</h2>
 
-	<div class="p-3 d-flex justify-content-center align-items-center flex-md-column">
+	<div class="p-1 d-flex justify-content-center align-items-center flex-md-column">
 	    <div class="mt-3 d-md-flex">
 	        <i class="bi bi-facebook mx-5"></i>
 	        <i class="bi bi-linkedin mx-5"></i>
@@ -95,7 +95,7 @@
 		  <label for="full-name">Full Name</label>
 		  <input type="text" class="form-control" id="full-name" required>
 		</div>
-		
+
 	  <div class="form-group">
 	    <label for="exampleInputEmail1">Email address</label>
 	    <input type="email" class="form-control" id="exampleInputEmail1" required>
@@ -103,7 +103,7 @@
 	 
 	  <div class="form-group">
 	    <label for="notes">Message</label>
-	    <textarea type="notes" class="form-control" rows="5" id="notes"></textarea>
+	    <textarea type="notes" class="form-control" rows="3" id="notes"></textarea>
 	  </div>
 	  <button type="submit" class="btn btn-dark text-center rounded">Send</button>
 	</form>
